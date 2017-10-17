@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Just work render should work 1`] = `
+<div
+  className="outer"
+>
+  <div
+    className="middle"
+  >
+    <h1
+      className="timer"
+    >
+        
+      00:00
+       
+    </h1>
+  </div>
+</div>
+`;
