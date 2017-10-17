@@ -50,6 +50,6 @@ describe('Parse url', () => {
     })
     it('should handle empty parameter', () => {
         const u = 'https://mapage.com?='
-        //        expect(parseURL(u)).toEqual({"": ""})
+        expect(parseURL(u)).toEqual({"": ""})
     })
 })

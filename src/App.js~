@@ -53,9 +53,10 @@ export class App extends Component {
         const keys = Object.keys(params)
         if(keys.length === 1) {
             const s = Object.keys(params)[0];
-            console.log("VAD I ", parseInt(s,10))
             return !isNaN(s) ? parseInt(s,10) : 180 
         }
+        // TODO: add more config features
+        return 180;
     }
 
     startTimer(duration) {
